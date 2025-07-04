@@ -45,6 +45,7 @@ This project demonstrates a full Active Directory lab setup using a pfSense fire
 | 3 | Allow  | ICMP       | Any                           | Any         | Any  | Allow pings                       |
 | 4 | Allow  | UDP (IPv4) | Any                           | WAN address | 1194 | OpenVPN remote access             |
 
+
 LAN RULES
 | # | Action | Protocol     | Source      | Destination | Port    | Description                               |
 | - | ------ | ------------ | ----------- | ----------- | ------- | ----------------------------------------- |

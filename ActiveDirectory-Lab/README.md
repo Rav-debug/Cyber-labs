@@ -21,9 +21,9 @@ This project demonstrates a full Active Directory lab setup using a pfSense fire
 
 | VM            | OS                 | RAM   | CPU | Disk   | IP Address     |
 |---------------|--------------------|-------|-----|--------|----------------|
-| pfSense       | pfSense 2.7.2      | 4 MB  | 2   | 10 GB  | 192.168.1.1    |
-| DC01          | Windows Server 2022| 4 MB  | 2   | 40 GB  | 192.168.1.2    |
-| Client01      | Windows 10 Pro     | 4 MB  | 2   | 30 GB  | 192.168.1.3    |
+| pfSense       | pfSense 2.7.2      | 4 GB  | 2   | 10 GB  | 192.168.1.1    |
+| DC01          | Windows Server 2022| 4 GB  | 2   | 40 GB  | 192.168.1.2    |
+| Client01      | Windows 10 Pro     | 7 GB  | 2   | 30 GB  | 192.168.1.3    |
 
 > All machines are connected through the pfSense LAN interface with the subnet: `192.168.1.0/24`
 

@@ -68,7 +68,7 @@ OpenVPN RULES
 
 The domain controller (`DC01`) was configured with the following:
 
-- **Domain Name**: `lab.local`
+- **Domain Name**: `Homelab.local`
 - **Forest Functional Level**: Windows Server 2022
 - **Roles Installed**:
   - Active Directory Domain Services

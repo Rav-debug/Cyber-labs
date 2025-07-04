@@ -35,9 +35,9 @@ This project demonstrates a full Active Directory lab setup using a pfSense fire
 - **pfSense WAN IP**: DHCP (connected to host NAT network)
 - **AD Domain Name**: `homelab.local`
 - **DNS Forwarders**: `8.8.8.8`, `1.1.1.1`
-- **Firewall Rules**: See below'
+- **Firewall Rules**: See below
   
-  WAN RULES
+WAN RULES
 | # | Action | Protocol   | Source                        | Destination | Port | Description                       |
 | - | ------ | ---------- | ----------------------------- | ----------- | ---- | --------------------------------- |
 | 1 | Block  | Any        | RFC 1918 networks             | Any         | Any  | Blocks private (non-routable) IPs |
